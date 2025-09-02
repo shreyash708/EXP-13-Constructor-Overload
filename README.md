@@ -8,13 +8,12 @@ Batch: B3
 # AIM: To study and implement Constructors and Destructors
 
 # THEORY:
-•	The name of the constructor is same as its class name. 
-•	Constructors are mostly declared in the public section of the class though it can be declared in the private section of the class. 
-•	Constructors do not return values; hence they do not have a return type. 
-•	 A constructor gets called automatically when we create the object of the class. 
-•	Constructors are used when variables need to be initiated before object is called.
-•	Constructors can be overloaded. 
-•	Constructor cannot be declared virtual
+•	•	In C++, We can have more than one constructor in a class with same name, as long as each has a different list of arguments. 
+This concept is known as Constructor Overloading and is quite similar to function overloading. 
+•	Overloaded constructors essentially have the same name (exact name of the class) and different by number and type of arguments.
+•	A constructor is called depending upon the number and type of arguments passed.
+•	While creating the object, arguments must be passed to let compiler know, which constructor needs to be called. 
+
 
 # Experiment 13B – Constructor Overloading (Practical - Temperature Conversion)
 Start the program.
